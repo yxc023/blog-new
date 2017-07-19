@@ -77,4 +77,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:yxc023/yxc023.github.io.git
+  branch: master
+  name: yxc023
+  email: yxc023@qq.com
